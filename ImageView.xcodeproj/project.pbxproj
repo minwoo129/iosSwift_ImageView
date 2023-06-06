@@ -16,6 +16,8 @@
 		A30ED7572A2F1CD600401D53 /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED7562A2F1CD600401D53 /* ImageViewTests.swift */; };
 		A30ED7612A2F1CD600401D53 /* ImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED7602A2F1CD600401D53 /* ImageViewUITests.swift */; };
 		A30ED7632A2F1CD600401D53 /* ImageViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED7622A2F1CD600401D53 /* ImageViewUITestsLaunchTests.swift */; };
+		A30ED7712A2F1CFC00401D53 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A30ED76F2A2F1CFC00401D53 /* lamp_off.png */; };
+		A30ED7722A2F1CFC00401D53 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A30ED7702A2F1CFC00401D53 /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A30ED75C2A2F1CD600401D53 /* ImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30ED7602A2F1CD600401D53 /* ImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITests.swift; sourceTree = "<group>"; };
 		A30ED7622A2F1CD600401D53 /* ImageViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A30ED76F2A2F1CFC00401D53 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		A30ED7702A2F1CFC00401D53 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		A30ED73E2A2F1CD400401D53 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				A30ED76F2A2F1CFC00401D53 /* lamp_off.png */,
+				A30ED7702A2F1CFC00401D53 /* lamp_on.png */,
 				A30ED73F2A2F1CD400401D53 /* AppDelegate.swift */,
 				A30ED7412A2F1CD400401D53 /* SceneDelegate.swift */,
 				A30ED7432A2F1CD400401D53 /* ViewController.swift */,
@@ -233,7 +239,9 @@
 			files = (
 				A30ED74C2A2F1CD600401D53 /* LaunchScreen.storyboard in Resources */,
 				A30ED7492A2F1CD600401D53 /* Assets.xcassets in Resources */,
+				A30ED7722A2F1CFC00401D53 /* lamp_on.png in Resources */,
 				A30ED7472A2F1CD400401D53 /* Main.storyboard in Resources */,
+				A30ED7712A2F1CFC00401D53 /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
